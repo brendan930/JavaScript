@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(173, 177, 179);
+}
+.top {
+    display: flex;
+    font-size: 2.5h;
+    margin-left: 40%;
+}
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fmovietitle, .smovietitle, .tmovietitle, .fomovietitle, .fimovietitle, .simovietitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0a45a3;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.fmoviepic, .smoviepic, .tmoviepic, .fomoviepic, .fimoviepicm .simoviepic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 80vh;
+  margin-left: 18px;
+  margin-bottom: 15px;
+}
+
+/* bottom url and name part */
+.bot {
+  display: flex;
+  margin-left: 30%;
+  font-size: 25px;
+}
+.divmovie {
+  display: flex;
+  justify-content: center;
+  margin-left: 35px;
+}
+.divurl {
+  display: flex;
+  justify-content: center;
+}
+.divmovie {
+  display: flex;
+  justify-content: center;
+}
+.divbut {
+  display: flex;
+  justify-content: center;
+}
+input[type=text], select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #3737ed;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+  }
+
+  input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  .paragraph {
+    border-radius: 5px;
+    background-color: #f39461;
+    padding: 20px;
+  }
+
+  .addbutton {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 40px; width: 200px;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-size: 25px;
+}
