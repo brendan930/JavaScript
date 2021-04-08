@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin: 5vh;
+    height: 10vh;
+    border-radius: 100vh;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.picture {
+    height: 100%;
+    width: 100%;
+}
+
