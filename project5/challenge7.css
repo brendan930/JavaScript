@@ -10,23 +10,35 @@
 }
 
 #button {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
     margin: 5vh;
-    height: 10vh;
-    border-radius: 100vh;
 }
 
-.main {
-    height: 100vh;
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50vh;
     width: 100vw;
     background-size: cover;
     background-position: center;
+    background-color: black;
 }
 
-.picture {
-    height: 100%;
-    width: 100%;
+.bottom {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
 }
 
+#name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 10vw;
+    color: white;
+    background-color: black;
+}
