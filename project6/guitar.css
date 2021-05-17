@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.guitar-box {
+    margin-top: 5vh;
+    background-image: url("guitar.jpeg");
+    height: 90vh;
+    width: 77vw;
+    position: absolute;
+}
+
+.stringb {
+    height: 10px;
+    width: 77vw;
+    background-color: orange;
+    margin-top: 74px;
+}
+
+.string {
+    height: 10px;
+    width: 77vw;
+    background-color: orange;
+    margin-top: 97px;
+}
