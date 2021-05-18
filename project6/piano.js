@@ -3,8 +3,9 @@ const keys = document.querySelectorAll(".buttons"),
   hints = document.querySelectorAll(".hints");
 
 function playNote(e) {
-  const audio = document.querySelector('audio[data-key="${e.keyCode}"]'),
-    key = document.querySelector('.key[data-key="${e.keyCode}"]');
+  console.log(e.key);
+  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`),
+    key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
   if (!key) return;
 

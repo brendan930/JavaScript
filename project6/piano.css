@@ -2,63 +2,29 @@
     margin: 0;
   }
   html  {
-    background: grey;
+    background: black;
     font-family: 'Noto Serif', serif;
-    -webkit-font-smoothing: antialiased;
     text-align: center;
   }
+
   header {
-  position: relative;
-  margin: 30px 0;
-  }
-  .pianoimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
-  header:after {
-  content: '';
-  width: 460px;
-  height: 15px;
-  background: url(images/intro-div.svg) no-repeat center;
-  display: inline-block;
-  text-align: center;
-  background-size: 70%;
+  margin: 30px;
   }
   
   h1 {
   color: #fff;
   font-size: 50px;
-  font-weight: 400;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  margin: 0;
-  }
-  
-  h2 {
-  color: #fff;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 400;
-  margin: 0 0 30px;
   }
   
   .keypressed {
   font-size: 120px;
-  line-height: 1;
   color: #eee;
-  text-shadow: 0 0 5rem #028ae9;
-  transition: all .07s ease;
-  min-height: 120px;
   }
   
   .buttons {
-  display: block;
   width: 100%;
   height: 350px;
-  max-width: 880px;
+  width: 880px;
   position: relative;
   margin: 40px auto 0;
   cursor: none;
@@ -68,17 +34,15 @@
   position: relative;
   border: 4px solid black;
   border-radius: .5rem;
-  transition: all .07s ease;
   display: block;
   box-sizing: border-box;
-  z-index: 2;
   }
   
   .key:not(.black) {
   float: left;
   width: 10%;
   height: 100%;
-  background: rgba(255, 255, 255, .8);    
+  background: white;    
   }
   
   .key.black {
@@ -117,24 +81,4 @@
   
   .key[data-key="80"] {
   left: 87%;    
-  }
-  
-  .playing {
-  transform: scale(.95);
-  border-color: #028ae9;
-  box-shadow: 0 0 1rem #028ae9;
-  }
-  
-  .hints {
-  display: block;
-  width: 100%;
-  opacity: 0;
-  position: absolute;
-  bottom: 7px;
-  transition: opacity .3s ease-out;
-  font-size: 20px;
-  }
-  
-  .keys:hover .hints {
-  opacity: 1;
   }
